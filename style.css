@@ -1,0 +1,96 @@
+body{
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hideContainer {
+    display: none;
+}
+
+.visibleContainer {
+    display: block;
+}
+
+
+.project {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.app {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.counterContainer #clock {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.counterContainer div {
+    text-align: center;
+}
+
+.taskContainer {
+    display: flex;
+    margin-top: 15px;   
+    margin-bottom: 20px;
+}
+
+.taskContainer div {
+    margin-top: 15px;
+}
+
+#taskInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+#submitButton {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.task {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.buttons {
+    width: 120px;
+    height: 46px;
+    display: flex;
+    align-items: stretch;
+}
+
+.buttons button{
+    width: 60px;
+    height: 46px;
+    border: 2px solid rgba(126, 112, 112, 0.486);
+}
+
+.startButton {
+    background-color: #54d454;
+}
+
+.deleteButton {
+    background-color: #E72727;
+}
